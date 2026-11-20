@@ -1,0 +1,45 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 500" fill="none">
+  <defs>
+    <linearGradient id="sky" x1="60" y1="40" x2="735" y2="455" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#102a56"/>
+      <stop offset="1" stop-color="#282064"/>
+    </linearGradient>
+    <linearGradient id="sun" x1="515" y1="103" x2="631" y2="219" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#fde68a"/>
+      <stop offset="1" stop-color="#fb923c"/>
+    </linearGradient>
+  </defs>
+  <rect width="800" height="500" rx="24" fill="url(#sky)"/>
+  <circle cx="606" cy="113" r="69" fill="#fbbf24" fill-opacity=".09"/>
+  <circle cx="606" cy="113" r="48" fill="url(#sun)"/>
+  <circle cx="606" cy="113" r="59" stroke="#fde68a" stroke-opacity=".25"/>
+  <rect x="48" y="42" width="704" height="416" rx="22" fill="#0b1730" fill-opacity=".8" stroke="#bfdbfe" stroke-opacity=".18"/>
+  <text x="78" y="82" fill="#e0f2fe" font-family="Arial,sans-serif" font-size="13" font-weight="700">SKYCAST</text>
+  <text x="78" y="131" fill="#f8fafc" font-family="Arial,sans-serif" font-size="25" font-weight="700">San Francisco</text>
+  <text x="78" y="154" fill="#94a3b8" font-family="Arial,sans-serif" font-size="12">Thursday, September 18</text>
+  <text x="78" y="239" fill="#f8fafc" font-family="Arial,sans-serif" font-size="72" font-weight="300">22°</text>
+  <text x="84" y="269" fill="#cbd5e1" font-family="Arial,sans-serif" font-size="14">Partly cloudy</text>
+  <text x="84" y="294" fill="#94a3b8" font-family="Arial,sans-serif" font-size="11">H: 25°  L: 16°</text>
+  <path d="M474 224c-12-19-2-42 21-45 8-27 47-32 62-8 20-9 42 5 41 27 25 3 35 33 16 49H497c-11 0-19-10-23-23Z" fill="#dbeafe" fill-opacity=".9"/>
+  <path d="M518 238v18m32-18v18m31-18v18" stroke="#67e8f9" stroke-linecap="round" stroke-width="4"/>
+  <text x="78" y="339" fill="#cbd5e1" font-family="Arial,sans-serif" font-size="12" font-weight="700">HOURLY FORECAST</text>
+  <rect x="77" y="354" width="646" height="77" rx="14" fill="#152342"/>
+  <text x="105" y="379" fill="#94a3b8" font-family="Arial,sans-serif" font-size="10">NOW</text>
+  <text x="214" y="379" fill="#94a3b8" font-family="Arial,sans-serif" font-size="10">1 PM</text>
+  <text x="323" y="379" fill="#94a3b8" font-family="Arial,sans-serif" font-size="10">2 PM</text>
+  <text x="432" y="379" fill="#94a3b8" font-family="Arial,sans-serif" font-size="10">3 PM</text>
+  <text x="541" y="379" fill="#94a3b8" font-family="Arial,sans-serif" font-size="10">4 PM</text>
+  <text x="650" y="379" fill="#94a3b8" font-family="Arial,sans-serif" font-size="10">5 PM</text>
+  <circle cx="112" cy="400" r="8" fill="#fbbf24"/>
+  <path d="M212 401c-4-7 0-15 9-16 3-10 18-12 24-3 7-3 16 2 15 10 9 2 12 12 6 18h-43c-5 0-9-4-11-9Z" fill="#cbd5e1"/>
+  <circle cx="331" cy="400" r="8" fill="#fbbf24"/>
+  <circle cx="440" cy="400" r="8" fill="#fbbf24"/>
+  <path d="M540 401c-4-7 0-15 9-16 3-10 18-12 24-3 7-3 16 2 15 10 9 2 12 12 6 18h-43c-5 0-9-4-11-9Z" fill="#cbd5e1"/>
+  <circle cx="658" cy="400" r="8" fill="#fbbf24"/>
+  <text x="94" y="423" fill="#f1f5f9" font-family="Arial,sans-serif" font-size="11">22°</text>
+  <text x="203" y="423" fill="#f1f5f9" font-family="Arial,sans-serif" font-size="11">23°</text>
+  <text x="322" y="423" fill="#f1f5f9" font-family="Arial,sans-serif" font-size="11">24°</text>
+  <text x="431" y="423" fill="#f1f5f9" font-family="Arial,sans-serif" font-size="11">24°</text>
+  <text x="540" y="423" fill="#f1f5f9" font-family="Arial,sans-serif" font-size="11">23°</text>
+  <text x="649" y="423" fill="#f1f5f9" font-family="Arial,sans-serif" font-size="11">21°</text>
+</svg>

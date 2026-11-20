@@ -1,0 +1,75 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 640 420" fill="none">
+  <defs>
+    <linearGradient id="screen" x1="152" y1="70" x2="476" y2="293" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#172554"/>
+      <stop offset="1" stop-color="#111827"/>
+    </linearGradient>
+    <linearGradient id="laptop" x1="105" y1="280" x2="516" y2="355" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#64748b"/>
+      <stop offset=".5" stop-color="#cbd5e1"/>
+      <stop offset="1" stop-color="#475569"/>
+    </linearGradient>
+    <linearGradient id="hoodie" x1="370" y1="125" x2="523" y2="316" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#4f46e5"/>
+      <stop offset="1" stop-color="#312e81"/>
+    </linearGradient>
+    <linearGradient id="ambient" x1="97" y1="55" x2="532" y2="380" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#22d3ee" stop-opacity=".55"/>
+      <stop offset="1" stop-color="#8b5cf6" stop-opacity=".4"/>
+    </linearGradient>
+    <filter id="blur" x="30" y="12" width="575" height="398" color-interpolation-filters="sRGB" filterUnits="userSpaceOnUse">
+      <feGaussianBlur stdDeviation="22"/>
+    </filter>
+  </defs>
+  <ellipse cx="320" cy="346" fill="#22d3ee" opacity=".16" rx="220" ry="25" filter="url(#blur)"/>
+  <circle cx="337" cy="206" r="165" fill="url(#ambient)" opacity=".18"/>
+  <circle cx="337" cy="206" r="164" stroke="url(#ambient)" stroke-opacity=".45"/>
+  <circle cx="101" cy="106" r="4" fill="#67e8f9"/>
+  <circle cx="540" cy="124" r="5" fill="#a78bfa"/>
+  <circle cx="521" cy="267" r="3" fill="#67e8f9"/>
+
+  <!-- Code editor on screen -->
+  <rect x="139" y="52" width="335" height="240" rx="20" fill="#0b1020" stroke="#64748b" stroke-opacity=".6" stroke-width="3"/>
+  <rect x="150" y="64" width="313" height="216" rx="12" fill="url(#screen)"/>
+  <path d="M150 76a12 12 0 0 1 12-12h289a12 12 0 0 1 12 12v23H150V76Z" fill="#1e293b"/>
+  <circle cx="169" cy="82" r="4" fill="#fb7185"/>
+  <circle cx="184" cy="82" r="4" fill="#fbbf24"/>
+  <circle cx="199" cy="82" r="4" fill="#34d399"/>
+  <rect x="218" y="77" width="78" height="10" rx="5" fill="#334155"/>
+  <path d="M180 123h70" stroke="#a78bfa" stroke-linecap="round" stroke-width="7"/>
+  <path d="M263 123h130" stroke="#67e8f9" stroke-linecap="round" stroke-width="7"/>
+  <path d="M196 147h113" stroke="#94a3b8" stroke-linecap="round" stroke-width="6"/>
+  <path d="M214 171h55" stroke="#f472b6" stroke-linecap="round" stroke-width="6"/>
+  <path d="M281 171h122" stroke="#c4b5fd" stroke-linecap="round" stroke-width="6"/>
+  <path d="M196 195h143" stroke="#34d399" stroke-linecap="round" stroke-width="6"/>
+  <path d="M214 219h89" stroke="#94a3b8" stroke-linecap="round" stroke-width="6"/>
+  <path d="M232 243h113" stroke="#60a5fa" stroke-linecap="round" stroke-width="6"/>
+  <path d="M166 123h4m-4 24h4m-4 24h4m-4 24h4m-4 24h4m-4 24h4" stroke="#475569" stroke-linecap="round" stroke-width="4"/>
+
+  <!-- Desk and laptop -->
+  <path d="m105 286 410 0-35 47H143l-38-47Z" fill="url(#laptop)" stroke="#cbd5e1" stroke-opacity=".6" stroke-width="2"/>
+  <path d="m251 291 121 0-8 9h-105l-8-9Z" fill="#334155"/>
+  <path d="M97 337h430" stroke="#22d3ee" stroke-linecap="round" stroke-opacity=".7" stroke-width="3"/>
+
+  <!-- Developer -->
+  <path d="M419 212c0-36 19-58 47-58s47 22 47 58v29c0 31-20 53-47 53s-47-22-47-53v-29Z" fill="#c99572"/>
+  <path d="M414 224c-5-45 14-78 54-78 37 0 55 27 50 68-13-5-22-16-26-28-15 14-39 21-71 20l-7 18Z" fill="#171318"/>
+  <g fill="#21181a">
+    <circle cx="426" cy="177" r="18"/><circle cx="444" cy="158" r="20"/>
+    <circle cx="465" cy="153" r="20"/><circle cx="486" cy="159" r="19"/>
+    <circle cx="504" cy="177" r="18"/><circle cx="435" cy="190" r="15"/>
+    <circle cx="458" cy="181" r="17"/><circle cx="482" cy="182" r="17"/>
+  </g>
+  <path d="M444 216h8m26 0h8" stroke="#38251f" stroke-linecap="round" stroke-width="4"/>
+  <path d="M458 238c6 4 12 4 18 0" stroke="#713e37" stroke-linecap="round" stroke-width="3"/>
+  <path d="M397 339c2-51 17-78 47-88l22 17 22-17c30 10 45 37 47 88H397Z" fill="url(#hoodie)"/>
+  <path d="m438 257 28 11 28-11-8 82h-40l-8-82Z" fill="#4338ca"/>
+  <path d="M455 271h22m-20 12h18" stroke="#a5b4fc" stroke-linecap="round" stroke-opacity=".8" stroke-width="3"/>
+  <path d="M418 299c-13 9-22 20-30 33m111-33c13 9 22 20 30 33" stroke="#3730a3" stroke-linecap="round" stroke-width="14"/>
+
+  <!-- Floating code brackets -->
+  <rect x="64" y="174" width="48" height="48" rx="14" fill="#0f172a" stroke="#22d3ee" stroke-opacity=".55"/>
+  <path d="m84 188-8 10 8 10m8-20 8 10-8 10" stroke="#67e8f9" stroke-linecap="round" stroke-linejoin="round" stroke-width="3"/>
+  <rect x="529" y="72" width="45" height="45" rx="13" fill="#0f172a" stroke="#a78bfa" stroke-opacity=".6"/>
+  <path d="m547 84-7 10 7 10m9-20 7 10-7 10" stroke="#c4b5fd" stroke-linecap="round" stroke-linejoin="round" stroke-width="3"/>
+</svg>

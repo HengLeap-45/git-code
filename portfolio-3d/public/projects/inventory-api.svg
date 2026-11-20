@@ -1,0 +1,58 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 500" fill="none">
+  <defs>
+    <linearGradient id="base" x1="60" y1="35" x2="750" y2="465" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#102b37"/>
+      <stop offset="1" stop-color="#12213a"/>
+    </linearGradient>
+    <linearGradient id="bar" x1="78" y1="48" x2="720" y2="100" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#0f766e"/>
+      <stop offset="1" stop-color="#2563eb"/>
+    </linearGradient>
+  </defs>
+  <rect width="800" height="500" rx="24" fill="url(#base)"/>
+  <rect x="42" y="34" width="716" height="432" rx="18" fill="#0b1425" stroke="#94a3b8" stroke-opacity=".25"/>
+  <path d="M60 34h680a18 18 0 0 1 18 18v48H42V52a18 18 0 0 1 18-18Z" fill="url(#bar)"/>
+  <rect x="64" y="57" width="20" height="20" rx="6" fill="#ccfbf1" fill-opacity=".9"/>
+  <path d="m69 65 5-4 5 4v6H69v-6Z" stroke="#0f766e" stroke-linecap="round" stroke-linejoin="round" stroke-width="1.5"/>
+  <text x="96" y="73" fill="white" font-family="Arial,sans-serif" font-size="15" font-weight="700">STOCKROOM</text>
+  <rect x="609" y="53" width="117" height="29" rx="8" fill="#ffffff" fill-opacity=".13"/>
+  <circle cx="625" cy="67" r="9" fill="#a7f3d0"/>
+  <text x="640" y="71" fill="#ecfdf5" font-family="Arial,sans-serif" font-size="10">API HEALTHY</text>
+  <text x="73" y="133" fill="#f8fafc" font-family="Arial,sans-serif" font-size="22" font-weight="700">Inventory</text>
+  <text x="73" y="154" fill="#94a3b8" font-family="Arial,sans-serif" font-size="11">Monitor stock levels across your catalog.</text>
+  <rect x="579" y="119" width="145" height="31" rx="8" fill="#0f766e"/>
+  <text x="599" y="139" fill="white" font-family="Arial,sans-serif" font-size="11" font-weight="700">+ Add product</text>
+  <rect x="73" y="174" width="204" height="69" rx="12" fill="#121f32" stroke="#334155"/>
+  <text x="90" y="196" fill="#94a3b8" font-family="Arial,sans-serif" font-size="10">TOTAL PRODUCTS</text>
+  <text x="90" y="226" fill="#f8fafc" font-family="Arial,sans-serif" font-size="24" font-weight="700">1,284</text>
+  <path d="m210 220 9-9 7 5 13-15" stroke="#34d399" stroke-linecap="round" stroke-linejoin="round" stroke-width="3"/>
+  <rect x="292" y="174" width="204" height="69" rx="12" fill="#121f32" stroke="#334155"/>
+  <text x="309" y="196" fill="#94a3b8" font-family="Arial,sans-serif" font-size="10">IN STOCK</text>
+  <text x="309" y="226" fill="#f8fafc" font-family="Arial,sans-serif" font-size="24" font-weight="700">1,196</text>
+  <rect x="511" y="174" width="213" height="69" rx="12" fill="#121f32" stroke="#334155"/>
+  <text x="528" y="196" fill="#94a3b8" font-family="Arial,sans-serif" font-size="10">LOW STOCK ALERTS</text>
+  <text x="528" y="226" fill="#f8fafc" font-family="Arial,sans-serif" font-size="24" font-weight="700">12</text>
+  <circle cx="694" cy="218" r="12" fill="#f59e0b" fill-opacity=".2"/>
+  <path d="M694 211v8m0 4h.01" stroke="#fbbf24" stroke-linecap="round" stroke-width="2"/>
+  <rect x="73" y="261" width="651" height="177" rx="12" fill="#101b2c"/>
+  <path d="M73 302h651M73 346h651M73 390h651" stroke="#334155" stroke-opacity=".7"/>
+  <text x="91" y="287" fill="#94a3b8" font-family="Arial,sans-serif" font-size="10" font-weight="700">PRODUCT</text>
+  <text x="320" y="287" fill="#94a3b8" font-family="Arial,sans-serif" font-size="10" font-weight="700">SKU</text>
+  <text x="444" y="287" fill="#94a3b8" font-family="Arial,sans-serif" font-size="10" font-weight="700">STOCK</text>
+  <text x="558" y="287" fill="#94a3b8" font-family="Arial,sans-serif" font-size="10" font-weight="700">STATUS</text>
+  <text x="91" y="329" fill="#e2e8f0" font-family="Arial,sans-serif" font-size="11">Wireless headphones</text>
+  <text x="320" y="329" fill="#94a3b8" font-family="monospace" font-size="10">WH-2048</text>
+  <text x="444" y="329" fill="#e2e8f0" font-family="Arial,sans-serif" font-size="11">148 units</text>
+  <rect x="558" y="313" width="66" height="20" rx="10" fill="#047857" fill-opacity=".35"/>
+  <text x="572" y="327" fill="#6ee7b7" font-family="Arial,sans-serif" font-size="9">In stock</text>
+  <text x="91" y="373" fill="#e2e8f0" font-family="Arial,sans-serif" font-size="11">USB-C hub</text>
+  <text x="320" y="373" fill="#94a3b8" font-family="monospace" font-size="10">HB-1032</text>
+  <text x="444" y="373" fill="#e2e8f0" font-family="Arial,sans-serif" font-size="11">8 units</text>
+  <rect x="558" y="357" width="83" height="20" rx="10" fill="#92400e" fill-opacity=".4"/>
+  <text x="570" y="371" fill="#fcd34d" font-family="Arial,sans-serif" font-size="9">Low stock</text>
+  <text x="91" y="417" fill="#e2e8f0" font-family="Arial,sans-serif" font-size="11">Mechanical keyboard</text>
+  <text x="320" y="417" fill="#94a3b8" font-family="monospace" font-size="10">MK-5810</text>
+  <text x="444" y="417" fill="#e2e8f0" font-family="Arial,sans-serif" font-size="11">62 units</text>
+  <rect x="558" y="401" width="66" height="20" rx="10" fill="#047857" fill-opacity=".35"/>
+  <text x="572" y="415" fill="#6ee7b7" font-family="Arial,sans-serif" font-size="9">In stock</text>
+</svg>
